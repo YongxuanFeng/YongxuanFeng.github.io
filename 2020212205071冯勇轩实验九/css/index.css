@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    position: absolute;
+    opacity: 0;
+}
+.img-down{
+    height: 12px;
+}
+.img-search{
+    height: 17px;
+}
+.img-login{
+    height: 25px;
+}
+.h-nav{
+    background-color: #06c1ae;
+    height: 52px;
+    color: #fff;
+    border-bottom: 2px solid #21897d;
+}
+.h-list{
+    padding-left: 11px;
+    line-height: 52px;
+}
+.h-search{
+    background-color:#05a494 ;
+    margin: 10px 0;
+    height: 32px;
+    padding-left: 2px;
+    line-height: 32px;
+    border-radius: 3px;
+}
+.h-login{
+    padding: 6px 15px 0 25px;
+    text-align: center;
+}
+.h-menu{
+    text-align: center;
+    color: #b1b1b1;
+    padding: 10px 0 5px 0;
+}
+.h-menu img{
+    height: 40px;
+    margin-bottom: 5px;
+}
+.mid{
+    border-top: 2px solid #ddd8ce;
+    background-color: #f0efed;
+    margin-top: 20px;
+}
+.m-top{
+    border-top:2px solid #ddd8ce;
+    border-bottom:2px solid #ddd8ce;
+    margin-top: 10px;
+    background: #fff;
+}
+.img-square1{
+    height:97px ;
+    margin-left: 18px;
+}
+.img-square2{
+    height: 71px;
+    margin-right: 28px;
+    float: right;
+}
+.img-square3{
+    height: 42px;
+    margin-left: 23px;
+    margin-top: 3px;
+}
+.m-top-word{
+    font-size: 12px;
+    color: #8a8a8a;
+}
+.m-top-box1{
+    margin-top: 5px;
+    padding-top: 6px;
+    line-height: 24px;
+    border-right:2px solid #ddd8ce;
+}
+.m-top-box1>.m-top-title{
+    margin-left: 26px;
+    color: #55a40f;
+    font-weight: 700;
+}
+.m-top-box1>.m-top-word{
+    margin-left: 24px;
+}
+.m-top-box2{
+    padding-left: 28px;
+    line-height: 25px;
+    padding-top: 2px;
+    border-bottom:2px solid #ddd8ce;
+}
+.m-top-box2>div{
+    color: #ff3f0d;
+    font-weight: 700;
+    margin-top: 6px;
+}
+.m-top-box2>div{
+    float: left;
+}
+.m-top-box3{
+    padding-top: 9px;
+    padding-left: 30px;
+    border-right:2px solid #ddd8ce;
+}
+.m-top-box3>.m-top-title{
+    color: #f742a0;
+    font-weight: 700;
+}
+.m-top-box4{
+    padding-top: 9px;
+    padding-left: 11px;
+}
+.m-top-box4>.m-top-title{
+    padding-left: 4px;
+    color: #ff8601;
+    font-weight: 700;
+}
+.m-top-num{
+    color: #fff;
+    background-color: #4c4c4c;
+    border-radius: 5px;
+    padding: 1px 3px;
+}
+.m-mid{
+    margin-top: 9px;
+    padding-left: 28px;
+    line-height: 29px;
+    padding: 0px;
+    border-top:2px solid #ddd8ce;
+    background-color: #fff;
+}
+.m-mid-line{
+    border-right:2px solid #ddd8ce;
+}
+.m-mid-box img{
+    margin-right: 0px;
+}
+.m-mid-box>div{
+    margin-top: 14px;
+}
+.m-mid :nth-child(1)>div{
+    padding-left: 13px;
+}
+.m-mid :nth-child(2) .m-top-title{
+    color: #ff8601;
+}
+.img-squarelogo{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.img-square{
+    margin-top: 6px;
+    margin-left: 6px;
+    height: 90px;
+    width: 98px;
+    float: left;
+}
+.m-buttom{
+    margin-top: 10px;
+    border-top:2px solid #ddd8ce;
+    background-color: #fff;
+}
+.m-buttom-box{
+    border-bottom:2px solid #ddd8ce;
+    padding-bottom: 10px;
+}
+.m-buttom-title{
+    margin-top: 12px;
+    margin-left: 26px;
+    padding-left: 0;
+    padding-bottom: 8px;
+    font-size: 15px;
+    font-weight: 900;
+    border-bottom:2px solid #ddd8ce;
+}
+.m-buttom-inf{
+    float: left;
+    margin-top: 12px;
+    margin-left: 11px;
+}
+.m-buttom-boxtitle{
+    color: #5f5f5f;
+    font-weight: 700;
+}
+.m-buttom-word{
+    font-size: 12px;
+    color: #6a6a6a;
+}
+.m-buttom-price{
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #06c1ae;
+}
+.m-buttom-discount{
+    display: inline-block;
+    border: 2px solid #ff9900;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #ff9900;
+    margin-left: 4px;
+}
+.m-buttom-market{
+    display: inline-block;
+    color: #666666;
+    font-size: 12px;
+    margin-left: 4px;
+}
+.m-buttom-sale{
+    float: right;
+    color: #666666;
+    padding-top: 72px;
+    font-size: 12px;
+    padding-right: 12px;
+}
+.feeter{
+    padding-top: 6px;
+    color: #62b6d4;
+    background-color: #a0c5e8;
+}

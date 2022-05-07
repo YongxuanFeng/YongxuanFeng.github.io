@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    margin-left: 33.3px;
+}
+
+.m-bk {
+    position: absolute;
+    width: 1063px;
+    height: 544px;
+    background: url('../image/bk.png') no-repeat;
+    opacity: 0.05;
+}
+
+.m-menu {
+    padding: 15px 64px;
+    font-size: 12.5px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    color: #6c6c6c;
+}
+
+.m-body {
+    margin: 0;
+    width: 550px;
+}
+
+.m-menu-item+.m-menu-item {
+    margin-left: 17.6px;
+}
+
+.m-body+.m-body {
+    margin-top: 50px;
+}
+
+.li-fir-level {
+    margin-top: 22px;
+    font-size: 12.8888px;
+    color: #6c6c6c;
+}
+
+.li-sec-level {
+    margin-top: 3.5px;
+    font-size: 19.4px;
+    color: black;
+
+}
+
+.li-thd-level {
+    margin-top: 4.4px;
+    font-size: 13.5px;
+    color: #6c6c6c;
+}
+
+.li-for-level {
+    margin-top: 17px;
+    font-size: 12px;
+    color: #606060;;
+}
+
+.li-fif-level {
+    margin-top: 4.4px;
+    font-size: 12.55555px;
+    color: #6c6c6c;
+}
+
+.num1 {
+    position: absolute;
+    top: 176px;
+    left: 772px;
+    font-size: 23px;
+    color: #6c6c6c;
+}
+
+.num2 {
+    position: absolute;
+    top: 307px;
+    left: 772px;
+    font-size: 23.4px;
+    color: #6c6c6c;
+}
+
+.num3 {
+    position: absolute;
+    top: 436px;
+    left: 772px;
+    font-size: 23px;
+    color: #6c6c6c;
+}
+
+.m-others-head {
+    position: absolute;
+    left: 736px;
+    top: 82px;
+    margin-top: 20px;
+    font-size: 18.5px;
+    font-weight: bolder;
+    color: black;
+}
+
+.m-others-body-fir {
+    position: absolute;
+    left: 780px;
+    top: 178px;
+    font-weight: bolder;
+    font-size: 14.3px;
+    color: black;
+}
+
+.m-others-body-sec {
+    position: absolute;
+    left: 780px;
+    top: 198.8px;
+    font-weight: bolder;
+    font-size: 14.3px;
+    color: black;
+}
+
+.m-others-body-thd {
+    position: absolute;
+    left: 780px;
+    top: 219.2px;
+    font-weight: bolder;
+    font-size: 14.3px;
+    color: black;
+}
+
+.m-others-body-for {
+    position: absolute;
+    left: 780px;
+    top: 246px;
+    font-weight: bolder;
+    font-size: 12px;
+    color: #606060;
+}
+
+.m-others-body-fif {
+    position: absolute;
+    left: 780px;
+    top: 265.4px;
+    font-weight: bolder;
+    font-size: 12px;
+    color: #6c6c6c;
+}
+
+.m-others-body-6 {
+    position: absolute;
+    left: 782px;
+    top: 307px;
+    font-weight: bolder;
+    font-size: 14.2px;
+    color: black;
+}
+
+.m-others-body-7 {
+    position: absolute;
+    left: 782px;
+    top: 327.8px;
+    font-weight: bolder;
+    font-size: 14.2px;
+    color: black;
+}
+
+.m-others-body-8 {
+    position: absolute;
+    left: 782px;
+    top: 346.8px;
+    font-weight: bolder;
+    font-size: 14.3px;
+    color: black;
+}
+
+.m-others-body-9 {
+    position: absolute;
+    left: 782.6px;
+    top: 374.5px;
+    font-weight: bolder;
+    font-size: 12.2px;
+    color: #606060;
+}
+
+.m-others-body-10 {
+    position: absolute;
+    left: 782.6px;
+    top: 395px;
+    font-weight: bolder;
+    font-size: 12px;
+    color: #6c6c6c;
+}
+
+.m-others-body-11 {
+    position: absolute;
+    left: 782px;
+    top: 436px;
+    font-weight: bolder;
+    font-size: 14.3px;
+    color: black;
+}
+
+.m-others-body-12 {
+    position: absolute;
+    left: 782px;
+    top: 457px;
+    font-weight: bolder;
+    font-size: 14.3px;
+    color: black;
+}
+
+.m-others-body-13 {
+    position: absolute;
+    left: 782px;
+    top: 483.5px;
+    font-weight: bolder;
+    font-size: 12px;
+    color: #606060;
+}
+
+.m-others-body-14 {
+    position: absolute;
+    left: 782px;
+    top: 503px;
+    font-weight: bolder;
+    font-size: 12px;
+    color: #6c6c6c;
+}
+
+.box1{
+    position: absolute;
+    height: 122px;
+    width: 152px;
+    left: 538px;
+    top: 70px;
+    background: lightpink;
+}
+
+.box2{
+    position: absolute;
+    height: 122px;
+    width: 152px;
+    left: 538px;
+    top: 240px;
+    background: lightpink;
+}
+
+.box3{
+    position: absolute;
+    height: 122px;
+    width: 152px;
+    left: 538px;
+    top: 410px;
+    background: lightpink;
+}

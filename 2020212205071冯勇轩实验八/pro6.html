@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<style>
+	body{
+		margin: 30px;
+	}
+	li {
+		list-style: none;
+		background-color:#eee ;
+		border: 1px solid #01847F;
+		margin: 5px;
+		height: 30px;
+		width: 150px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.isclicked {
+		background-color:#FBD26A ;
+	}
+	.problem {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+</style>
+</head>
+<body>
+    <div class="problem">
+    	<li>第一题</li>
+    	<li>第二题</li>
+    	<li>第三题</li>
+    </div>
+    <div class="cnt">
+    	<embed width="100%" height="800px" src="image zoom/image_zoom.html">
+    </div>
+    <script>
+	document.querySelectorAll('li').forEach((item,i)=>{
+		item.addEventListener('click',(e)=>{
+			document.querySelectorAll('li')[0].classList.remove("isclicked");
+			document.querySelectorAll('li')[1].classList.remove("isclicked");
+			document.querySelectorAll('li')[2].classList.remove("isclicked");
+			document.querySelectorAll('li')[i].classList.add("isclicked");
+			var src1;
+			if(i==2)
+			{
+				src1='data manage/data_manage.html';
+			}
+			else if(i==1)
+			{
+				src1='html slid/html_slid.html';
+			}
+			else
+			{
+				src1='image zoom/image_zoom.html';
+			}
+			document.querySelector('embed').src=src1;
+		})
+	})
+</script>
+</body>
+</html>

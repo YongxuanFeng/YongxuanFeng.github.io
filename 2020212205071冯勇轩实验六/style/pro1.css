@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors ZFXG
+ * @date    2020-04-02 15:28:30
+ * @version $Id$
+ */
+
+body {
+  background-color: #99bd90;
+}
+
+.container {
+  width: 800px;
+  height: 600px;
+  background-color: #cdd3f5;
+  border: 1px solid #000;
+}
+
+.g-hd {
+  width: 760px;
+  background-color: #99bd90;
+  display: flex;
+  border: 1px solid #000;
+  margin: 20px;
+}
+
+.m-big_block {
+  width: 80px;
+  height: 80px;
+  background-color: #cdd3f5;
+  margin:20px;
+  border: 1px solid #000;
+}
+
+.g-hd>div:nth-child(5) {
+  margin-left: auto;
+}
+
+.g-bd {
+  display: flex;
+  margin: 0 20px 20px 20px;
+  border: 1px solid #000;
+  background-color: #99bd90;
+}
+
+.g-left {
+  margin:20px;
+}
+
+.l-top {
+  width: 200px;
+  height: 300px;
+  background-color: #cdd3f5;
+  border: 1px solid #000;
+}
+
+.l-buttom {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.m-small_block {
+  width: 50px;
+  height: 50px;
+  background-color: #cdd3f5;
+  border: 1px solid #000;
+}
+
+.g-right {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.m-line {
+  width: 480px;
+  height: 40px;
+  background-color: #cdd3f5;
+  border: 1px solid #000;
+}

@@ -1,0 +1,409 @@
+@charset "UTF-8";
+
+body {
+	padding: 20px;
+	background: #FFF;
+	width: 1000px;
+}
+
+/*用css实现雪花效果*/
+.snowflower {
+	display: inline-block; 
+	width: 16px;  
+	height: 4px;  
+	border-radius: 25px;  
+	margin-bottom: 4.5px;
+	background-color: #002FA7;
+}
+
+.snowflower:before,.snowflower:after {
+  	content: " ";  
+  	position: absolute;  
+  	width: inherit;  
+  	height: inherit;  
+  	border-radius: inherit;  
+  	background-color: inherit;
+}
+
+.snowflower:before {
+	transform: rotate(-60deg);
+}
+
+.snowflower:after {  
+	transform: rotate(60deg);
+}
+
+/*用css实现太阳*/
+.sun{
+	display: inline-block;
+	margin-bottom: -3.5px;
+	color: red;
+    width:16px;
+    height:16px;
+    border:2px solid;
+    border-radius:50%;
+    transform: scale(0.7);
+    box-shadow:-11px 0 0 -8.5px,11px 0 0 -8.5px,0 -11px 0 -8.5px,0 11px 0 -8.5px,8px 8px 0 -8.5px,-8px -8px 0 -8.5px,8px -8px 0 -8.5px,-8px 8px 0 -8.5px;
+}
+
+/*用css实现铁路*/
+.rail {
+	position: absolute;
+	left: 209.8px;
+	top: 256px;
+	border: 1px solid #01847F;
+	width: 3px;
+	height: 35px;
+}
+
+.rail1 {
+	background: #01847F;
+	position: absolute;
+	left: 209.8px;
+	top: 256px;
+	width: 5px;
+	height: 6px;
+}
+
+.rail2 {
+	background: #01847F;
+	position: absolute;
+	left: 209.8px;
+	top: 268px;
+	width: 5px;
+	height: 6px;
+}
+
+.rail3 {
+	background: #01847F;
+	position: absolute;
+	left: 209.8px;
+	top: 280px;
+	width: 5px;
+	height: 6px;
+}
+
+/*css修改svg train图片样式*/
+.icon_train {
+	position: absolute;
+	left: 130.8px;
+	top: 173.5px;
+	transform: scale(0.11);
+}
+
+/*css修改svg bus图片*/
+.icon_bus {
+	position: absolute;
+	left: 130.8px;
+	top: 93px;
+	transform: scale(0.1);
+}
+
+/*css修改svg cloud图片*/
+.icon_cloud {
+	position: absolute;
+	left: 63px;
+	top: 214px;
+	transform: scale(0.1);
+}
+
+/*css修改svg file图片*/
+.icon_file {
+	position: absolute;
+	left: 858px;
+	top: 8.5px;
+	transform: scale(0.08);
+}
+
+/*css修改svg print图片*/
+.icon_print {
+	position: absolute;
+	left: 797px;
+	top: 8.5px;
+	transform: scale(0.08);
+}
+
+section {
+	height: 200px;
+}
+
+.path1 {
+	height: 36px;
+}
+
+.transfer {
+	height: 36px;
+}
+
+.path2 {
+	height: 36px;
+}
+
+.destination {
+	height: 36px;
+}
+
+.ui-grid-1, .ui-grid-2, .ui-grid-3, .ui-grid-4, .ui-grid-5, .ui-grid-6, .ui-grid-7, .ui-grid-8, .ui-grid-9, .ui-grid-10, .ui-grid-11,.ui-grid-12, .ui-grid-13, .ui-grid-14, .ui-grid-15, .ui-grid-16, .ui-grid-17, .ui-grid-18, .ui-grid-19, .ui-grid-20, .ui-grid-21, .ui-grid-22, .ui-grid-23, .ui-grid-24, .ui-grid-25 {
+    margin: 0 10px 0 0;
+    float:left;
+    display: inline;
+}
+
+a {
+	display: inline-block;
+	color: blue;
+	text-decoration: underline;
+}
+
+.ui-grid-row {
+	width: 1000px;
+}
+
+header>.m-tl>.m-tab>span {
+	background: #006699;
+	color: #fff;
+	padding: 4px 10px 0;
+	border-radius: 3px 3px 0 0;
+	font-size: 15px;
+	display: block;
+	text-align: center;
+}
+
+.m-tl {
+    zoom: 1;
+    border-bottom:8px solid #006699;
+}
+
+.m-tl>.ui-grid-2,.m-tl>.ui-grid-21{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+header>.m-tl>.m-tip>span {
+	background: #ff6600;
+	color: #fff;
+	padding: 2px 4px;
+	font-size: 15px;
+	border-radius: 3px;
+	text-align: center;
+}
+
+header>.m-tl>.m-fun>span {
+	border: 1px solid #ccc;
+	color: #002FA7;
+	padding: 2px 4px;
+	border-radius: 2px;
+	text-align: right;
+	line-height: 20px;
+}
+
+.body-hd {
+	border: 1px solid #cecbce;
+}
+
+.body-hd-1>.m-time {
+	margin: 0 10px 0 0;
+}
+
+.file {
+	margin-left: 30px;
+}
+
+span.m-money1.ui-grid-1,span.m-money2.ui-grid-2 {
+	margin: 0 10px 2px 0;
+}
+
+.body-hd-2>span {
+
+}
+
+.m-time span{
+    color: red;
+    padding: 2px 4px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.m-money {
+	box-sizing: border-box;
+	padding: 2px 4px;
+	font-size: 13px;
+}
+
+.m-money2 {
+	color: red;
+}
+
+.body-hd-2 {
+	font-size: 13px;
+}
+
+.body-hd-2>span {
+	margin: 0 10px 0 0;
+}
+
+span.m-all_time2,span.message_change2 {
+	color: red;
+}
+
+span.m-on_time2 {
+    font-weight: bold;
+}
+
+.body-bd {
+	background: #fffbde;
+	border: 1px solid #cecbce;
+	box-sizing: border-box;
+	border-top: 0;
+}
+
+.body-bd>.ui-grid-4 {
+	float: right;
+	text-align: right;
+	margin: 0;
+}
+
+.body-bd {
+	margin-bottom: 10px;
+}
+
+.body-ft>.body-ft1 {
+	background: #cedce8;
+	color: #607a90;
+	text-align: center;
+}
+
+.body-ft>.body-ft1>.bord {
+	box-sizing: border-box;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.body-ft>.body-ft2 {
+	background: #f2f2f2;;
+	box-sizing: border-box;
+	border: 1px solid #cecbce;
+	border-top: 0;
+	margin-top: 1px;
+}
+
+.null {
+	height: 10px;
+}
+
+.body-ft>.body-ft2>.departure {
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.body-ft>.body-ft2>.ui-grid-2 {
+	float: right;
+	text-align: right;
+	line-height: 28px;
+}
+
+.time {
+	box-sizing: border-box;
+	border-right: 1px solid #01847F;
+}
+
+.time>p {
+	text-align: center;
+}
+
+.borderp {
+	font-weight: bold;
+}
+
+.bus {
+	margin-left: -6px;
+	padding-left: 5px;
+	/*box-sizing: border-box;*/
+	/*为了让padding能够撑大盒子所以注释*/
+	height: 36px;
+	font-weight: bold;
+	border-left: 1px solid #01847F;
+	color: #492D22;
+	line-height: 36px;
+	text-align: center;
+}
+
+.direction {
+	color: #01847F;
+}
+
+.bordernull {
+	height: 36px;
+	border-left: 1px solid #cecbce;
+	border-right: 1px solid #cecbce;
+	box-sizing: border-box;
+}
+
+.bordernull2 {
+	height: 36px;
+}
+
+.price {
+	line-height: 36px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.transfer,.destination {
+	padding: 3px 0 3px 0;
+	/*box-sizing: border-box;*/
+	border: 1px solid #cecbce;
+	background: #f2f2f2;
+}
+
+.transfer>.ui-grid-5 {
+	text-align: center;
+	line-height: 36px;
+}
+
+.station {
+	font-size: 18px;
+	font-weight: bolder;
+	line-height: 36px;
+}
+
+span.fan14.ui-grid-3 {
+	margin-right: 8px;
+	text-align: center;
+	height: 36px;
+	line-height: 36px;
+
+}
+
+.others2,.others1 {
+	text-align: right;
+	margin-left: -3px;
+}
+
+.path2>.bus {
+	color: #002FA7;
+}
+
+.direction>.p1 {
+	text-decoration: underline;
+}
+
+.direction>.p2 {
+	width: 70px;
+	font-size: 11px;
+	transform: scale(0.9);
+	background: #002FA7;
+	text-align: center;
+	border-radius: 3px;
+	color: white;
+}
+
+.path2>.bordernull {
+	text-align: center;	
+}
+
+.path2>.bordernull2 {
+	text-align: center;
+	line-height: 36px;
+}
